@@ -8,8 +8,8 @@ const ProfileItem = ({
     status,
     company,
     location,
-    skills
-  }
+    skills,
+  },
 }) => {
   return (
     <div className='profile bg-light'>
@@ -36,7 +36,7 @@ const ProfileItem = ({
 };
 
 ProfileItem.propTypes = {
-  profile: PropTypes.object.isRequired
+  profile: PropTypes.object.isRequired,
 };
 
 export default ProfileItem;
